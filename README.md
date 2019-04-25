@@ -8,16 +8,19 @@ Tongya Liu and Ryan Abernathey
 
 Rotationally coherent Lagrangian vortices (RCLVs) are detected from satellite-derived surface geostrophic velocities in the global ocean using the Lagrangian coherent structure detection method (Haller, 2016) based on the Lagrangian-averaged vorticity deviation (LAVD). The South China Sea (SCS) Lagrangian eddies dataset, with the time series from Jan. 2010 to Dec. 2015, is extracted from the global RCLVs atlas.
 
-To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degree) were initialized over the domain on the first day of each month and advected forward for 180 days (6 months) driven by daily surface geostrophic velocities. The details of particles advection can be found in Abernathey and Haller (2018). Our global atlas contains RCLVs with the lifespan from 30 days to 180 days detected in every integration time interval. This SCS dataset contains 30-day, 60-day, and 90-day RCLVs, for the Lagrangian eddies could live for 90 days is very few in the SCS (Fig01).
+To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degree) were initialized over the domain on the first day of each month and advected forward for 180 days (6 months) driven by daily surface geostrophic velocities. The details of particles advection can be found in Abernathey and Haller (2018). Our global atlas contains RCLVs with the lifespan from 30 days to 180 days detected in every integration time interval. This SCS dataset contains 30-day, 60-day, and 90-day RCLVs, for the Lagrangian eddies could live for 90 days is very few in the SCS (Fig. 01).
 
 <div align="center">
 <img src="Figs/Fig01.png"/>
- Fig. 2 The 30-day RCLVs boundaries selected by different convexity deficiency (CD) in Jan. 2013.
 </div>
+<center>Fig. 01 The numbers of RCLVs in SCS from 2010 to 2015.</center>
 
-The RCLVs boundaries are defined by the outermost closed and convex curves around LAVD maxima. The convexity deficiency (CD) is introduced to select the boundaries. Fig02 shows that the loose CD (0.5) would detect some filament incoherent structures around eddies, and the rigorous CD (0.01) would filter out some real coherent eddies, so we used a moderate CD (0.1) to select RCLVs boundaries, which is proved reasonable in the work of Tarshish et al. (2018).
+The RCLVs boundaries are defined by the outermost closed and convex curves around LAVD maxima. The convexity deficiency (CD) is introduced to select the boundaries. Fig. 02 shows that the loose CD (0.5) would detect some filament incoherent structures around eddies, and the rigorous CD (0.01) would filter out some real coherent eddies, so we used a moderate CD (0.1) to select RCLVs boundaries, which is proved reasonable in the work of Tarshish et al. (2018).
 
-![Fig02 The 30-day RCLVs boundaries selected by different convexity deficiency (CD) in Jan. 2013.](Figs/Fig02.png)
+![Image text](Figs/Fig02.png)
+
+<center>Fig. 02 The 30-day RCLVs boundaries selected by CDs in Jan. 2013.</center>
+
 
 ### 2 File and data structure
 
