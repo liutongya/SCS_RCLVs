@@ -24,7 +24,7 @@ The RCLVs boundaries are defined by the outermost closed and convex curves aroun
 
 The dataset is available on Figshare. (https://figshare.com/articles/South_China_Sea_Lagrangian_Eddies_Dataset/8044250/3)
 
-In the dataset main directory, there are two directories named 'RCLV_info' and 'Trajectory', which are used to put RCLVs general information (RCLV id, radius, lifespan, etc.) files in CSV format and each 10 days particles positions files in NETCDF format, respectively. The general information files are grouped by year and eddy duration (e.g. 'RCLV_30day_2010.csv'). After loading the RCLV ID from *.csv files, the corresponding particles trajectories files could be matched by its ID in 'Trajectory'.
+In the dataset main directory, there are two directories named 'RCLV_info' and 'Trajectory', which are used to put RCLVs general information (RCLV id, radius, lifespan, etc.) files in CSV format and each 10 days particles positions files in NETCDF format, respectively. The general information files are grouped by year and eddy duration (e.g. 'RCLV_30day_2010.csv'). Each particles postions file is named by its unique RCLV ID. After reading the RCLV ID from *.csv files, the corresponding particles trajectories files in 'Trajectory' could be matched.
 
 ##### Column names and units in CSV files
 - id: RCLVs ID
@@ -40,7 +40,7 @@ In the dataset main directory, there are two directories named 'RCLV_info' and '
 
 ### 3 Data visualization
 
-See data_visualization.ipynb
+See data_visualization.ipynb.
 
 ### References
 1. Abernathey, Ryan, and George Haller. "Transport by lagrangian vortices in the eastern pacific." Journal of Physical Oceanography 48.3 (2018): 667-685.
