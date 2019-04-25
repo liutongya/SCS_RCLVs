@@ -14,14 +14,11 @@ To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degr
 <img src="Figs/Fig01.png"/>
 </div>
 <p align="center">Fig. 01 The numbers of RCLVs in SCS from 2010 to 2015.</p>
-<center>Fig. 01 The numbers of RCLVs in SCS from 2010 to 2015.</center>
 
 The RCLVs boundaries are defined by the outermost closed and convex curves around LAVD maxima. The convexity deficiency (CD) is introduced to select the boundaries. Fig. 02 shows that the loose CD (0.5) would detect some filament incoherent structures around eddies, and the rigorous CD (0.01) would filter out some real coherent eddies, so we used a moderate CD (0.1) to select RCLVs boundaries, which is proved reasonable in the work of Tarshish et al. (2018).
 
 ![Image text](Figs/Fig02.png)
-
-<center>Fig. 02 The 30-day RCLVs boundaries selected by CDs in Jan. 2013.</center>
-
+<p align="center">Fig. 02 The 30-day RCLVs boundaries selected by CDs in Jan. 2013.</p>
 
 ### 2 File and data structure
 
