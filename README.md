@@ -1,8 +1,10 @@
 ## South China Sea Lagrangian Eddies Dataset (2010 - 2015)
+[![DIO]](https://doi.org/10.6084/m9.figshare.8044250.v3)]()
 
 Tongya Liu and Ryan Abernathey
 
 ###1 Introduction
+
 Rotationally coherent Lagrangian vortices (RCLVs) are detected from satellite-derived surface geostrophic velocities in the global ocean using the Lagrangian coherent structure detection method (Haller, 2016) based on the Lagrangian-averaged vorticity deviation (LAVD). The South China Sea (SCS) Lagrangian eddies dataset, with the time series from Jan. 2010 to Dec. 2015, is extracted from the global RCLVs atlas.
 
 To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degree) were initialized over the domain on the first day of each month and advected forward for 180 days (6 months) driven by daily surface geostrophic velocities. The details of particles advection can be found in Abernathey and Haller (2018). Our global atlas contains RCLVs with the lifespan from 30 days to 180 days detected in every integration time interval. This SCS dataset contains 30-day, 60-day, and 90-day RCLVs, for the Lagrangian eddies could live for 90 days is very few in the SCS (Fig01).
