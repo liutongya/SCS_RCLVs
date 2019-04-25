@@ -24,7 +24,7 @@ The RCLVs boundaries are defined by the outermost closed and convex curves aroun
 
 The dataset is available on Figshare. (https://figshare.com/articles/South_China_Sea_Lagrangian_Eddies_Dataset/8044250/3)
 
-In the dataset main directory, there are two directories named 'RCLV_info' and 'Trajectory', which are used to put RCLVs general information (RCLV id, radius, lifespan, etc.) files in CSV format and each 10 days particles positions files in NETCDF format, respectively. The general information files are grouped by year and eddy duration (e.g. 'RCLV_30day_2010.csv'). Each particles postions file is named by its unique RCLV ID. After reading the RCLV ID from *.csv files, the corresponding particles trajectories files in 'Trajectory' could be matched.
+In the dataset main directory, there are two directories named 'RCLV_info' and 'Trajectory', which are used to put RCLVs general information (RCLV id, radius, lifespan, etc.) files in CSV format and each 10 days particles positions files in NETCDF format, respectively. The general information files are grouped by year and eddy duration (e.g. 'RCLV_30day_2010.csv'). Each particles postions file is named by its unique RCLV ID (e.g. '20100101_030day_000001.nc'). After reading the RCLV ID from *.csv files, the corresponding particles trajectories files in 'Trajectory' could be matched.
 
 ##### Column names and units in CSV files
 - id: RCLVs ID
