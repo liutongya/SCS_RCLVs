@@ -1,5 +1,4 @@
 ## South China Sea Lagrangian Eddies Dataset (2010 - 2015)
-[![DIO](https://doi.org/10.6084/m9.figshare.8044250.v3)]
 
 Tongya Liu and Ryan Abernathey
 
@@ -14,7 +13,7 @@ To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degr
 
 The RCLVs boundaries are defined by the outermost closed and convex curves around LAVD maxima. The convexity deficiency (CD) is introduced to select the boundaries. Fig02 shows that the loose CD (0.5) would detect some filament incoherent structures around eddies, and the rigorous CD (0.01) would filter out some real coherent eddies, so we used a moderate CD (0.1) to select RCLVs boundaries, which is proved reasonable in the work of Tarshish et al. (2018).
 
-![avatar](./Figs/Fig02.jpg)
+![Image text](Figs/Fig02.png)
 
 ### 2 File and data structure
 
