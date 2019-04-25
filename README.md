@@ -10,7 +10,7 @@ Rotationally coherent Lagrangian vortices (RCLVs) are detected from satellite-de
 
 To identify RCLVs, millions of 2-D Lagrangian particles (resolution of 1/32 degree) were initialized over the domain on the first day of each month and advected forward for 180 days (6 months) driven by daily surface geostrophic velocities. The details of particles advection can be found in Abernathey and Haller (2018). Our global atlas contains RCLVs with the lifespan from 30 days to 180 days detected in every integration time interval. This SCS dataset contains 30-day, 60-day, and 90-day RCLVs, for the Lagrangian eddies could live for 90 days is very few in the SCS (Fig01).
 
-<div style="text-align: center">
+<div align="center">
 <img src="Figs/Fig01.png"/>
 </div>
 
